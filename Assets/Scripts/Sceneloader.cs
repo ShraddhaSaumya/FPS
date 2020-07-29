@@ -14,4 +14,21 @@ public class Sceneloader : MonoBehaviour
     {
         Application.Quit();
     }
+
+    void loadNextLevel() {
+        int s = SceneManager.GetActiveScene().buildIndex;
+        if (s == 0)
+            SceneManager.LoadScene(1);
+        if (s == 1)
+            SceneManager.LoadScene(0);
+    }
+
+    private void OnCollisionEnter(Collision collision)
+    {        
+        if (collision.gameObject.tag=="Finish")
+        {
+            loadNextLevel();   
+        }
+    }
+
 }

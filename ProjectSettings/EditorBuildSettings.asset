@@ -8,4 +8,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/asylum.unity
     guid: 0cbd58423ce3dfa4b9a509e6b73affc4
+  - enabled: 1
+    path: Assets/Scenes/maze.unity
+    guid: 2c28054fc62a3184a86fffa2d38f30ee
   m_configObjects: {}
