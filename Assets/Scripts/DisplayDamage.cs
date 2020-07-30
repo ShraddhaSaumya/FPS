@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class DisplayDamage : MonoBehaviour
 {
+    
     [SerializeField] Canvas bloodCanvas;
     [SerializeField] float impactTime = 0.3f;
 

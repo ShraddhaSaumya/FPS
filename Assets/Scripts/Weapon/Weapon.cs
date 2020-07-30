@@ -81,8 +81,7 @@ public class Weapon : MonoBehaviour
 
     private void CreateHitEffect(RaycastHit hit)
     {
-        // instantiate particle effect
-        // to destroy keep it as a gameobj
+        // instantiate particle effect - to destroy keep it as a gameobj
         GameObject impact = Instantiate(hitFlash, hit.transform.position, Quaternion.LookRotation(hit.normal));
         Destroy(impact, 0.1f);
     }

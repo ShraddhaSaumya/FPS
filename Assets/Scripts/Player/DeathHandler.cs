@@ -5,11 +5,14 @@ using UnityEngine;
 public class DeathHandler : MonoBehaviour
 {
     [SerializeField] Canvas GameOverCanvas;
+    [SerializeField] Canvas WinCanvas;
+    [SerializeField] AudioSource audioSource;
 
     // Start is called before the first frame update
     void Start()
     {
         GameOverCanvas.enabled = false;
+        WinCanvas.enabled = false;
     }
 
     public void HandleDeath()
@@ -19,5 +22,14 @@ public class DeathHandler : MonoBehaviour
         FindObjectOfType<WeaponSwitcher>().enabled = false;
         Cursor.lockState = CursorLockMode.None;
         Cursor.visible = true;
+    }
+    public void HandleWin()
+    {
+        WinCanvas.enabled = true;
+        Time.timeScale = 0;
+        FindObjectOfType<WeaponSwitcher>().enabled = false;
+        Cursor.lockState = CursorLockMode.None;
+        Cursor.visible = true;
+        audioSource.Stop();
     }
 }
