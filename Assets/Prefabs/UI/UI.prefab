@@ -1561,7 +1561,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bf77b9802aa3ade45acbe0e0182efd64, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  WinCanvas: {fileID: 7613878452284969564}
 --- !u!1 &3886931739828189811
 GameObject:
   m_ObjectHideFlags: 0
@@ -2389,8 +2388,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 5.8, y: 137.6}
-  m_SizeDelta: {x: 445.08478, y: 148.07584}
+  m_AnchoredPosition: {x: -15.567, y: 157.4}
+  m_SizeDelta: {x: 518.3575, y: 187.54605}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &36180892468388215
 CanvasRenderer:
@@ -2448,15 +2447,15 @@ MonoBehaviour:
   m_outlineColor:
     serializedVersion: 2
     rgba: 4278190080
-  m_fontSize: 125
-  m_fontSizeBase: 125
+  m_fontSize: 130
+  m_fontSizeBase: 130
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
   m_textAlignment: 514
-  m_characterSpacing: 4
+  m_characterSpacing: 6
   m_wordSpacing: 0
   m_lineSpacing: 0
   m_lineSpacingMax: 0

@@ -105,6 +105,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ef3044a1ee0b7444b9bc2bc3b6993747, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  intensityDecay: 0.1
-  angleDecay: 1
+  intensityDecay: 0.08
+  angleDecay: 0.8
   minangle: 40
